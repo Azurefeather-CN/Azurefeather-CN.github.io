@@ -1,18 +1,1 @@
-/* 星空画布样式 */
-.canvas_effects {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 0; /* 确保在内容下方 */
-  pointer-events: none; /* 不影响交互 */
-}
-
-/* 仅在深色模式显示（data-theme="dark"） */
-[data-theme="dark"] .canvas_effects {
-  display: block;
-}
-
-/* 浅色模式隐藏 */
-[data-theme="light"] .canvas_effects {
-  display: none;
-}
+.canvas_effects{position:fixed;top:0;left:0;z-index:0;pointer-events:none}[data-theme=dark] .canvas_effects{display:block}[data-theme=light] .canvas_effects{display:none}
